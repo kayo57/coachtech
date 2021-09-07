@@ -1,0 +1,322 @@
+/* 以下の内容を追加します */
+
+body {
+  margin: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+
+}
+.logo {
+  margin: 20px;
+}
+.img-logo {
+
+
+}
+
+.header-nav {
+
+}
+
+.header-nav-list {
+  list-style-type: none;
+  display: flex;
+  justify-content:flex-end;
+}
+.header-nav-item {
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+.main {
+  position: relative;
+
+}
+/*main画像*/
+.main-img {
+  width: 100%;
+  text-align: right;
+  display: block;
+
+}
+/*main文章　commit to the*/
+.main-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 60px;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+span {
+  color: #C71585;
+}
+/*sub 全ての人の成長*/
+.main-title-sub {
+  position: absolute;
+  top: 300px;
+  left: 30px;
+}
+
+/*sub2 educational*/
+.main-title-sub2 {
+  position: absolute;
+  top: 330px;
+  left: 30px;
+}
+
+.category-tag {
+  font-family: 'Indie Flower', cursive;
+  position: relative;
+  left: 100px;
+}
+.title {
+  position: relative;
+  left: 100px;
+}
+/*top.news*/
+.news {
+  position: relative;
+}
+.news-item {
+  border-top: 3px solid #ddd;
+  border-bottom: 3px solid #ddd;
+}
+
+.news-info dl {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  color: #808080;
+  border-bottom: 1px solid #ddd;
+  padding: 15px 0;
+
+}
+.news-tag {
+  background: #C71585;
+  border-radius: 20px;
+  width: 200px;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+.news-info dl:nth-child(5) {
+}
+
+.news-info dt {
+}
+.news-info dd {
+
+}
+/*end.news*/
+
+
+
+
+.about {
+  background: #F5F5F5;
+  height: 400px;
+  position: relative;
+}
+.category-tag-about {
+
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+.about-tag-title {
+  text-align: center;
+}
+
+.card-lave img {
+  position: relative;
+  width: 30%;
+  float: right;
+  padding-right: 150px;
+  padding-top: 10px;
+}
+.abut-tag-title-acticl {
+  font-size: 14px;
+  position: absolute;
+  left: 180px;
+
+}
+
+/*top.service*/
+.service {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.servis-card {
+
+}
+/*service画像*/
+.card-img {
+
+}
+
+.card-content {
+
+}
+/*教育事業*/
+.card-cat {
+
+}
+/*サンプルテキストがここに入ります*/
+.card-content {
+
+}
+
+.servis-card {
+
+}
+.card-img {
+
+}
+.card-content {
+
+}
+.card-cat {
+
+}
+.card-content {
+
+}
+      
+.servis-card {
+  
+}
+.card-img {
+
+}
+  
+.card-content {
+
+}
+.card-cat {
+
+}
+.card-content {
+
+}
+/*end.servis*/
+
+/*top.blog*/
+.blog {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: #F5F5F5;
+
+}
+.blog-card {
+  width: 30%;
+  
+}
+/*ブログ画像*/
+.blog-img img {
+  width: 100%;
+}
+/*親要素*/
+.blog-content {
+  background: #ddd;
+
+
+}
+/*blogラベル*/
+.blog-card-cat {
+  background: pink;
+
+}
+/*文章ープログラミング学習の~*/
+.blog-card-ttl {
+  font-size: 20px;
+
+}
+.tag {
+
+}
+/*2021/01/01*/
+.card-date {
+
+}
+/*COACHTECH*/
+.card-tag {
+
+}
+.blog-card {
+
+}
+.blog-img {
+
+}
+
+.blog-content {
+
+}
+.blog-card-cat{
+
+}
+.blog-card-ttl {
+
+}
+
+
+
+.form-btn {
+
+}
+
+.company {
+
+}
+.table {
+  width: 60%;
+  border-collapse: collapse;
+
+}
+.table th,
+.table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+.table th {
+  font-weight: bold;
+  background-color: #dedede;
+  text-align: left;
+}
+/*end.company*/
+
+.mv{
+  position: relative;
+  background: url(img/recruit.png);
+  height: auto;
+  width: 50vw;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: left;
+}
+
+.mv-2{
+}
+.title-1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  color: #fff;
+}
+
+
+株式会社estraへのお問い合わせはこちらから
+
+  
+input type="submit" class="form-btn" value="お問い合わせ" />
+ 
+
+
